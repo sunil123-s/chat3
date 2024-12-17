@@ -35,7 +35,7 @@ cloudinary.config({
 });
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || "*",
+  origin: process.env.FRONTEND_URL || "https://chatapp-10-d.netlify.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
